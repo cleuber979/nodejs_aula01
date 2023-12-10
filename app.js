@@ -1,8 +1,7 @@
-const {nome,sobrenome,falaNome}= require('./mod1');
-console.log(nome,sobrenome);
+//const multiplicacao = require( './mod');
 
-//dois modulos de exportar
+//console.log(multiplicacao(2,2));
 
-//const mod1 = require('./mod1');
-//const falaNome = mod1.falaNome;
-console.log(falaNome());
+const Cahorro = require('./mod');
+const cachorrinho = new Cahorro ( 'dog' );
+cachorrinho.latir();
